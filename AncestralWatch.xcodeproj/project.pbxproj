@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4E1D9CE2952945300CA3A9D /* AncestralWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9CD2952945300CA3A9D /* AncestralWatchApp.swift */; };
+		A4E1D9D02952945300CA3A9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9CF2952945300CA3A9D /* ContentView.swift */; };
+		A4E1D9D22952945400CA3A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E1D9D12952945400CA3A9D /* Assets.xcassets */; };
+		A4E1D9D52952945400CA3A9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4E1D9D42952945400CA3A9D /* Preview Assets.xcassets */; };
+		A4E1D9DF2952945400CA3A9D /* AncestralWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9DE2952945400CA3A9D /* AncestralWatchTests.swift */; };
+		A4E1D9E92952945400CA3A9D /* AncestralWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9E82952945400CA3A9D /* AncestralWatchUITests.swift */; };
+		A4E1D9EB2952945400CA3A9D /* AncestralWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9EA2952945400CA3A9D /* AncestralWatchUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E1D9DB2952945400CA3A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E1D9C22952945300CA3A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E1D9C92952945300CA3A9D;
+			remoteInfo = AncestralWatch;
+		};
+		A4E1D9E52952945400CA3A9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E1D9C22952945300CA3A9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E1D9C92952945300CA3A9D;
+			remoteInfo = AncestralWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4E1D9CA2952945300CA3A9D /* AncestralWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AncestralWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E1D9CD2952945300CA3A9D /* AncestralWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncestralWatchApp.swift; sourceTree = "<group>"; };
+		A4E1D9CF2952945300CA3A9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4E1D9D12952945400CA3A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4E1D9D42952945400CA3A9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4E1D9DA2952945400CA3A9D /* AncestralWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncestralWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E1D9DE2952945400CA3A9D /* AncestralWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncestralWatchTests.swift; sourceTree = "<group>"; };
+		A4E1D9E42952945400CA3A9D /* AncestralWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncestralWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E1D9E82952945400CA3A9D /* AncestralWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncestralWatchUITests.swift; sourceTree = "<group>"; };
+		A4E1D9EA2952945400CA3A9D /* AncestralWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncestralWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E1D9C72952945300CA3A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E1D9D72952945400CA3A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E1D9E12952945400CA3A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4E1D9C12952945300CA3A9D = {
+			isa = PBXGroup;
+			children = (
+				A4E1D9CC2952945300CA3A9D /* AncestralWatch */,
+				A4E1D9DD2952945400CA3A9D /* AncestralWatchTests */,
+				A4E1D9E72952945400CA3A9D /* AncestralWatchUITests */,
+				A4E1D9CB2952945300CA3A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4E1D9CB2952945300CA3A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1D9CA2952945300CA3A9D /* AncestralWatch.app */,
+				A4E1D9DA2952945400CA3A9D /* AncestralWatchTests.xctest */,
+				A4E1D9E42952945400CA3A9D /* AncestralWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4E1D9CC2952945300CA3A9D /* AncestralWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1D9CD2952945300CA3A9D /* AncestralWatchApp.swift */,
+				A4E1D9CF2952945300CA3A9D /* ContentView.swift */,
+				A4E1D9D12952945400CA3A9D /* Assets.xcassets */,
+				A4E1D9D32952945400CA3A9D /* Preview Content */,
+			);
+			path = AncestralWatch;
+			sourceTree = "<group>";
+		};
+		A4E1D9D32952945400CA3A9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1D9D42952945400CA3A9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4E1D9DD2952945400CA3A9D /* AncestralWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1D9DE2952945400CA3A9D /* AncestralWatchTests.swift */,
+			);
+			path = AncestralWatchTests;
+			sourceTree = "<group>";
+		};
+		A4E1D9E72952945400CA3A9D /* AncestralWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4E1D9E82952945400CA3A9D /* AncestralWatchUITests.swift */,
+				A4E1D9EA2952945400CA3A9D /* AncestralWatchUITestsLaunchTests.swift */,
+			);
+			path = AncestralWatchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E1D9C92952945300CA3A9D /* AncestralWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E1D9EE2952945400CA3A9D /* Build configuration list for PBXNativeTarget "AncestralWatch" */;
+			buildPhases = (
+				A4E1D9C62952945300CA3A9D /* Sources */,
+				A4E1D9C72952945300CA3A9D /* Frameworks */,
+				A4E1D9C82952945300CA3A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AncestralWatch;
+			productName = AncestralWatch;
+			productReference = A4E1D9CA2952945300CA3A9D /* AncestralWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4E1D9D92952945400CA3A9D /* AncestralWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E1D9F12952945400CA3A9D /* Build configuration list for PBXNativeTarget "AncestralWatchTests" */;
+			buildPhases = (
+				A4E1D9D62952945400CA3A9D /* Sources */,
+				A4E1D9D72952945400CA3A9D /* Frameworks */,
+				A4E1D9D82952945400CA3A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E1D9DC2952945400CA3A9D /* PBXTargetDependency */,
+			);
+			name = AncestralWatchTests;
+			productName = AncestralWatchTests;
+			productReference = A4E1D9DA2952945400CA3A9D /* AncestralWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4E1D9E32952945400CA3A9D /* AncestralWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E1D9F42952945400CA3A9D /* Build configuration list for PBXNativeTarget "AncestralWatchUITests" */;
+			buildPhases = (
+				A4E1D9E02952945400CA3A9D /* Sources */,
+				A4E1D9E12952945400CA3A9D /* Frameworks */,
+				A4E1D9E22952945400CA3A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E1D9E62952945400CA3A9D /* PBXTargetDependency */,
+			);
+			name = AncestralWatchUITests;
+			productName = AncestralWatchUITests;
+			productReference = A4E1D9E42952945400CA3A9D /* AncestralWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4E1D9C22952945300CA3A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A4E1D9C92952945300CA3A9D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A4E1D9D92952945400CA3A9D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A4E1D9C92952945300CA3A9D;
+					};
+					A4E1D9E32952945400CA3A9D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A4E1D9C92952945300CA3A9D;
+					};
+				};
+			};
+			buildConfigurationList = A4E1D9C52952945300CA3A9D /* Build configuration list for PBXProject "AncestralWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4E1D9C12952945300CA3A9D;
+			productRefGroup = A4E1D9CB2952945300CA3A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E1D9C92952945300CA3A9D /* AncestralWatch */,
+				A4E1D9D92952945400CA3A9D /* AncestralWatchTests */,
+				A4E1D9E32952945400CA3A9D /* AncestralWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4E1D9C82952945300CA3A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E1D9D52952945400CA3A9D /* Preview Assets.xcassets in Resources */,
+				A4E1D9D22952945400CA3A9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E1D9D82952945400CA3A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E1D9E22952945400CA3A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E1D9C62952945300CA3A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E1D9D02952945300CA3A9D /* ContentView.swift in Sources */,
+				A4E1D9CE2952945300CA3A9D /* AncestralWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E1D9D62952945400CA3A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E1D9DF2952945400CA3A9D /* AncestralWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E1D9E02952945400CA3A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E1D9EB2952945400CA3A9D /* AncestralWatchUITestsLaunchTests.swift in Sources */,
+				A4E1D9E92952945400CA3A9D /* AncestralWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4E1D9DC2952945400CA3A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E1D9C92952945300CA3A9D /* AncestralWatch */;
+			targetProxy = A4E1D9DB2952945400CA3A9D /* PBXContainerItemProxy */;
+		};
+		A4E1D9E62952945400CA3A9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4E1D9C92952945300CA3A9D /* AncestralWatch */;
+			targetProxy = A4E1D9E52952945400CA3A9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4E1D9EC2952945400CA3A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4E1D9ED2952945400CA3A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E1D9EF2952945400CA3A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AncestralWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 893XXC546B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.AncestralWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4E1D9F02952945400CA3A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AncestralWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 893XXC546B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.AncestralWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4E1D9F22952945400CA3A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 893XXC546B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.AncestralWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AncestralWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AncestralWatch";
+			};
+			name = Debug;
+		};
+		A4E1D9F32952945400CA3A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 893XXC546B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.AncestralWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AncestralWatch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AncestralWatch";
+			};
+			name = Release;
+		};
+		A4E1D9F52952945400CA3A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 893XXC546B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.AncestralWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AncestralWatch;
+			};
+			name = Debug;
+		};
+		A4E1D9F62952945400CA3A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 893XXC546B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jakob.AncestralWatchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AncestralWatch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4E1D9C52952945300CA3A9D /* Build configuration list for PBXProject "AncestralWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E1D9EC2952945400CA3A9D /* Debug */,
+				A4E1D9ED2952945400CA3A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E1D9EE2952945400CA3A9D /* Build configuration list for PBXNativeTarget "AncestralWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E1D9EF2952945400CA3A9D /* Debug */,
+				A4E1D9F02952945400CA3A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E1D9F12952945400CA3A9D /* Build configuration list for PBXNativeTarget "AncestralWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E1D9F22952945400CA3A9D /* Debug */,
+				A4E1D9F32952945400CA3A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E1D9F42952945400CA3A9D /* Build configuration list for PBXNativeTarget "AncestralWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E1D9F52952945400CA3A9D /* Debug */,
+				A4E1D9F62952945400CA3A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4E1D9C22952945300CA3A9D /* Project object */;
+}
