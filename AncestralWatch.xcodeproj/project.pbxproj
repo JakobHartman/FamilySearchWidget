@@ -14,6 +14,11 @@
 		A4E1D9DF2952945400CA3A9D /* AncestralWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9DE2952945400CA3A9D /* AncestralWatchTests.swift */; };
 		A4E1D9E92952945400CA3A9D /* AncestralWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9E82952945400CA3A9D /* AncestralWatchUITests.swift */; };
 		A4E1D9EB2952945400CA3A9D /* AncestralWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9EA2952945400CA3A9D /* AncestralWatchUITestsLaunchTests.swift */; };
+		A4E1D9F82952B2B700CA3A9D /* LDSLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9F72952B2B600CA3A9D /* LDSLoginView.swift */; };
+		A4E1D9FA2952B33A00CA3A9D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9F92952B33A00CA3A9D /* Utils.swift */; };
+		A4E1D9FC2952B52C00CA3A9D /* FacebookLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9FB2952B52C00CA3A9D /* FacebookLoginView.swift */; };
+		A4E1D9FE2952C26700CA3A9D /* SwiftUIWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1D9FD2952C26700CA3A9D /* SwiftUIWebview.swift */; };
+		A4E1DA052954ECBD00CA3A9D /* WWWLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E1DA042954ECBD00CA3A9D /* WWWLoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,12 @@
 		A4E1D9E42952945400CA3A9D /* AncestralWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AncestralWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E1D9E82952945400CA3A9D /* AncestralWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncestralWatchUITests.swift; sourceTree = "<group>"; };
 		A4E1D9EA2952945400CA3A9D /* AncestralWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AncestralWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4E1D9F72952B2B600CA3A9D /* LDSLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDSLoginView.swift; sourceTree = "<group>"; };
+		A4E1D9F92952B33A00CA3A9D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A4E1D9FB2952B52C00CA3A9D /* FacebookLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookLoginView.swift; sourceTree = "<group>"; };
+		A4E1D9FD2952C26700CA3A9D /* SwiftUIWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebview.swift; sourceTree = "<group>"; };
+		A4E1DA03295395A400CA3A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A4E1DA042954ECBD00CA3A9D /* WWWLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWWLoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +105,16 @@
 		A4E1D9CC2952945300CA3A9D /* AncestralWatch */ = {
 			isa = PBXGroup;
 			children = (
+				A4E1DA03295395A400CA3A9D /* Info.plist */,
 				A4E1D9CD2952945300CA3A9D /* AncestralWatchApp.swift */,
 				A4E1D9CF2952945300CA3A9D /* ContentView.swift */,
 				A4E1D9D12952945400CA3A9D /* Assets.xcassets */,
 				A4E1D9D32952945400CA3A9D /* Preview Content */,
+				A4E1D9F72952B2B600CA3A9D /* LDSLoginView.swift */,
+				A4E1D9FB2952B52C00CA3A9D /* FacebookLoginView.swift */,
+				A4E1DA042954ECBD00CA3A9D /* WWWLoginView.swift */,
+				A4E1D9FD2952C26700CA3A9D /* SwiftUIWebview.swift */,
+				A4E1D9F92952B33A00CA3A9D /* Utils.swift */,
 			);
 			path = AncestralWatch;
 			sourceTree = "<group>";
@@ -257,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4E1D9F82952B2B700CA3A9D /* LDSLoginView.swift in Sources */,
+				A4E1D9FA2952B33A00CA3A9D /* Utils.swift in Sources */,
 				A4E1D9D02952945300CA3A9D /* ContentView.swift in Sources */,
+				A4E1DA052954ECBD00CA3A9D /* WWWLoginView.swift in Sources */,
+				A4E1D9FC2952B52C00CA3A9D /* FacebookLoginView.swift in Sources */,
 				A4E1D9CE2952945300CA3A9D /* AncestralWatchApp.swift in Sources */,
+				A4E1D9FE2952C26700CA3A9D /* SwiftUIWebview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +442,7 @@
 				DEVELOPMENT_TEAM = 893XXC546B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AncestralWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +472,7 @@
 				DEVELOPMENT_TEAM = 893XXC546B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AncestralWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
